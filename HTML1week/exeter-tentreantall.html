@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exeter</title>
+</head>
+
+<body>
+
+    <h3>Create a reservation</h3>
+
+    <form action="" method="GET">
+
+
+        <fieldset>
+            <legend>Personal data</legend>
+
+            <label>Name:
+                <input type="text" maxlength="30" required>
+            </label>
+            <br>
+            <br>
+            <label>Email:
+                <input type="text" maxlength="30" required>
+            </label>
+            <br>
+            <br>
+            <label>Phone:
+                <input type="text" maxlength="30" width="7" required>
+            </label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Location</legend>
+
+            <label>City:
+                <input type="text" maxlength="30">
+            </label>
+            <br>
+            <br>
+            <label>Street:
+                <input type="text" maxlength="30">
+            </label>
+            <br>
+            <br>
+            <label>Street number:
+                <input type="text" maxlength="30">
+            </label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Event Info</legend>
+            <label>What is the main reason for event?
+                <br>
+                <br>
+                <select name="reason" size="3">
+                    <option value="birthday">Birthday</option>
+                    <option value="wedding" selected="selected">Wedding</option>
+                    <option value="company">Company</option>
+                </select>
+                <br>
+                <label>
+                    <br> How many guests do you expect?
+                    <br>
+                    <input type="text" placeholder="i.e 5">
+                </label>
+
+            </label>
+
+        </fieldset>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit form</button>
+
+    </form>
+
+
+</body>
+
+</html>
