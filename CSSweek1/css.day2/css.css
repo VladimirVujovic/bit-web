@@ -1,0 +1,50 @@
+@font-face {
+
+font-family: 'ItalianBreakfast';
+ src:url('./ItalianBreakfast-Regular.ttf');
+ 
+ } 
+
+
+
+* {
+    background-color:whitesmoke ;
+    font-size: 25px 
+
+}
+
+
+#p1 {
+    color: blue;
+    font-family: "ItalianBreakfast", 'Times New Roman', Times, serif;
+
+}
+
+#p2{
+    color: blueviolet;
+    font-family: "Lobster", Arial, Helvetica, sans-serif; 
+    font-style: oblique;
+}
+
+
+#p3{
+    color: brown;
+    font-family:  Times, 'Times New Roman', serif
+
+}
+
+.one {
+    color: violet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.two {
+    color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+span {
+    font-weight: 900;
+    font-style: italic
+}
+
