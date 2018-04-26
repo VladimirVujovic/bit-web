@@ -1,0 +1,46 @@
+#a1 {
+border: 5px;
+background-color: rgb(233, 233, 89);
+border-color: red;
+border-style: dashed;
+ 
+margin: 20px;
+width: 300px;
+margin: 50px auto 50px auto;
+
+}
+
+
+#a2 {
+border: 5px;
+background-color: rgb(233, 233, 89);
+border-color: green;
+border-style: solid;
+width: 400px;
+margin: 20px;
+display: none;
+}
+
+#a3 {
+    border: 5px;
+    background-color: rgb(233, 233, 89);
+    border-color: red;
+    border-style: dashed;
+     
+    margin-left: 20px;
+    visibility: hidden;
+
+    }
+
+#main {
+    width: 960px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding: 50px,0,50px,0;
+    background-color: violet;
+    color:yellow;
+    font-style: italic;
+    box-shadow: tan;
+
+    border-radius: 40px 20px;
+}
