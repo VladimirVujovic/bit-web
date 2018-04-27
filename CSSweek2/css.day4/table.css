@@ -1,0 +1,27 @@
+/* * {
+    background-color: white;
+} */
+
+.first{
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.second {
+    height: 100px;
+}
+
+#colour {
+    background-color: rgb(236, 42, 42);
+ }
+ 
+
+tr:nth-child(odd){
+    background-color: grey;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+ 

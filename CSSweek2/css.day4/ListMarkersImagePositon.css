@@ -1,0 +1,28 @@
+* {
+    background-color:whitesmoke;
+}
+
+#one {
+   list-style-type: circle; 
+}
+
+#two {
+    list-style-type: square;
+}
+
+#three {
+    list-style-type: upper-alpha;
+}
+
+#four {
+    list-style-type: lower-roman;
+}
+
+
+.one {
+    u
+    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/20px-Flag_of_Switzerland_%28Pantone%29.svg.png);
+    width: 200px;
+    list-style-position: inside;
+
+}
