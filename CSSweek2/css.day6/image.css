@@ -1,0 +1,19 @@
+#one{
+height: 200px;
+display: block;
+float: right;
+}
+
+#two{
+    width: 200px;
+    display: block;
+    float: center;
+}
+
+#three{
+    width: 200px;
+    height: 200px;;
+    display: block;
+    float: left;
+}
+
