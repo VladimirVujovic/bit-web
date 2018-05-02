@@ -1,0 +1,126 @@
+li{
+    display: inline-block;
+    float: right;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    }
+    
+header{
+    width: 960px;
+    background-color: darkred;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+    margin: 3px auto;
+    }
+    
+    
+    #two{
+        width: 960px;
+        margin: 0px auto;
+        border-width: 50px, 5px;
+        border-collapse: collapse;
+    }
+    
+    
+    
+    #pictureone{
+    width: 100%;
+    }
+    
+    
+    
+    #three{
+    width: 300px;
+    height: 200px;
+    width: 960px;
+    margin: 1px auto;
+    border-width: 50px, 5px;
+    
+    }
+    
+main{
+        width: 960px;
+        margin: 1px auto;
+    }
+    
+    .width{
+        width: 300px;
+        
+        overflow: hidden;
+        float: left;
+        margin: 4px;
+        
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #last{
+        width: 1650px;
+        background-color: darkblue;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        overflow: hidden;
+        margin: 0px auto;
+    
+    }
+    
