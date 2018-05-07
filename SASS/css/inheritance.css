@@ -1,0 +1,20 @@
+.class1, #one, #two, #third {
+  border: 6px solid black;
+  width: 200px;
+  margin: 0px auto;
+  display: inline-block; }
+
+#one {
+  border-color: red; }
+
+#two {
+  border-color: blue; }
+
+#third {
+  border-color: green; }
+
+div {
+  width: 40%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=inheritance.css.map */

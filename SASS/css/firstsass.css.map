@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,CAAE;EACA,KAAK,EAHC,IAAI",
+"sources": ["../sass/firstsass.scss"],
+"names": [],
+"file": "firstsass.css"
+}

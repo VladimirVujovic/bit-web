@@ -1,0 +1,16 @@
+header {
+  width: 300px;
+  background-image: url ("./banner3.jpg");
+}
+
+#naslov.header {
+  position: absolute;
+  z-index: 1;
+}
+
+#link {
+  position: absolute;
+}
+#img.heder {
+  position: absolute;
+}

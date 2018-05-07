@@ -1,0 +1,7 @@
+$color: red;
+@mixin text-shadow($a, $b, $color) {
+  text-shadow: $a $b $color;
+}
+h1 {
+  @include text-shadow(20px, 20px, blue);
+}
