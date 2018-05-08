@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,OAAY;EACV,SAAS,EAAE,IAAa;;AAD1B,OAAY;EACV,SAAS,EAAE,IAAa;;AAD1B,OAAY;EACV,SAAS,EAAE,IAAa;;AAD1B,OAAY;EACV,SAAS,EAAE,IAAa",
+"sources": ["../sass/For&If.scss"],
+"names": [],
+"file": "For&If.css"
+}
