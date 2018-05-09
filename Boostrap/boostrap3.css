@@ -1,0 +1,32 @@
+.nav-link {
+  color: white;
+  font-size: 22px;
+}
+
+#picture {
+  width: 100%;
+}
+
+.container {
+  margin: 2px auto;
+}
+
+.rowfooter {
+  background-color: blue;
+  color: white;
+}
+
+.card {
+  border: none;
+}
+
+footer {
+  color: white;
+  background-color: rgb(9, 9, 126);
+  height: 50px;
+  margin: 0px 32px 8px 32px;
+}
+.par {
+  padding-left: 20%;
+  padding-top: 12px;
+}
