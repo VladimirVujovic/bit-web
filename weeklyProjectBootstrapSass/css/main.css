@@ -1,0 +1,73 @@
+.bg-custom {
+  background-color: #495057;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: white;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+#menu {
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: #18bc9c;
+  color: white;
+}
+
+.second {
+  text-align: center;
+  background-color: #18bc9c;
+  color: white;
+  margin: 0;
+}
+
+.third {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+.slika {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#hr {
+  font-weight: bold;
+}
+
+.five {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+img {
+  padding: 5px 5px;
+}
+
+.ten {
+  text-align: center;
+  padding: 50px 50px;
+  background-color: #18bc9c;
+  color: white;
+}
+
+.about {
+  text-align: right;
+  background-color: #18bc9c;
+}
