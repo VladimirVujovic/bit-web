@@ -1,0 +1,135 @@
+.bg-custom {
+  background-color: #495057;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: white;
+  font-weight: bold;
+}
+$color: red;
+p {
+  a {
+    color: $color;
+  }
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+#menu {
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: #18bc9c;
+  color: white;
+}
+
+.second {
+  text-align: center;
+  background-color: #18bc9c;
+  color: white;
+  margin: 0;
+}
+
+.third {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.slika {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#hr {
+  font-weight: bold;
+}
+
+.five {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+img {
+  padding: 5px 5px;
+}
+
+.text {
+  text-align: center;
+  padding: 50px 50px;
+  background-color: #18bc9c;
+  color: white;
+}
+
+.about {
+  text-align: right;
+  background-color: #18bc9c;
+}
+
+.contact {
+  background-color: white;
+}
+
+.message {
+  height: 130px;
+}
+.button {
+  background-color: #18bc9c;
+  color: white;
+  margin: 0px 0px 0px 450px;
+  border: black;
+}
+
+#about {
+  color: white;
+}
+
+.margin {
+  border-bottom: 0.3px solid rgb(219, 214, 214);
+  color: rgb(160, 140, 140);
+}
+
+.last {
+  background-color: #3c536b;
+  color: white;
+  font-weight: bold;
+}
+
+.colorlast {
+  background: #3c536b;
+}
+
+.button {
+  background-color: #18bc9c;
+  color: white;
+  margin: 0px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #9fa5aa;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgb(190, 181, 181);
+  border-width: 0px 0px 0.6px 0px;
+  /* border-radius: 0.25rem; */
+  /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
