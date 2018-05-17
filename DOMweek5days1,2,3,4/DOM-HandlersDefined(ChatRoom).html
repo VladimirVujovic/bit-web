@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #chat {
+            height: 500px;
+        }
+
+        #button1 {
+            background-color: rgb(151, 34, 34);
+            color: white;
+            font: bold;
+            width: 100px;
+            height: 30px;
+            display: inline-block;
+        }
+
+        #field {
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="chat">
+
+    </div>
+
+    <div>
+        <input type="text" width="900px" id="field">
+    </div>
+
+    <div>
+        <button onclick="send()" id="button1">Send</button>
+    </div>
+
+    <script>
+        var inputText = document.querySelector("#field");
+        var textArea = document.querySelector("#chat");
+        function send() {
+            var message = inputText.value;
+            var newChatMessage = document.createElement("p");
+            newChatMessage.textContent = message;
+            textArea.appendChild(newChatMessage);
+            inputText.value = "";
+        }
+
+
+        inputText.onkeydown = function () {
+            if (event.keyCode == 13) {
+                send();
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
