@@ -1,0 +1,176 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <style>
+                body {
+                        background-image: url(./bg.jpg);
+                        background-size: cover;
+                }
+
+                .mario {
+                        position: absolute;
+                        bottom: 94px;
+                        left: 800px;
+                }
+
+                .runningMario {
+                        position: absolute;
+                        bottom: 94px;
+                        left: 800px;
+                        display: none;
+                }
+        </style>
+
+
+</head>
+
+<body>
+
+
+
+        <img src="./mario_running.gif" alt="runningMario" class="runningMario" height="150px">
+
+
+        <img src="./mario.png" alt="mario" class="mario" height="150px">
+
+
+
+        <script> 
+                var mario = document.querySelector(".mario");
+                var superMario = document.querySelector(".runningMario");
+
+                function moveMario(event) {
+                        if (event.keyCode === 39) {
+                                mario.classList.toggle("none");
+                                superMario.classList.toggle("none");
+
+
+                        }
+                }
+
+
+
+
+                document.addEventListener("keydown", moveMario)
+                document.addEventListener("keyup", mario)
+
+
+
+
+        </script>
+</body>
+
+</html>
+
+ -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Super Mario</title>
+</head>
+
+<style>
+        html {
+                height: 100%;
+        }
+
+        body {
+                background-color: blue;
+                background-image: url("bg.jpg");
+                background-position: bottom left;
+                background-repeat: repeat-x;
+                height: 100%;
+        }
+
+        div {
+                height: 150px;
+                position: absolute;
+                bottom: 91px;
+                left: 40%;
+        }
+
+        img {
+                height: 100%;
+        }
+
+        .hide {
+                visibility: hidden;
+        }
+
+        #img {
+                width: 100px;
+        }
+</style>
+
+<body>
+
+        <div id="img">
+                <img src="./mario.png">
+        </div>
+
+        <div id="gif" class="hide">
+                <img src="./mario_running.gif">
+        </div>
+
+
+        <script>
+
+                var running = false;
+
+                var img = document.getElementById("img");
+                var gif = document.getElementById("gif");
+                var body = document.querySelector("body");
+
+                function runMario(e) {
+                        if (e.keyCode == "39" && running == false) {
+                                img.classList.toggle('hide');
+                                gif.classList.toggle('hide');
+                                running = true;
+                                c = setInterval(moveGrass, 50);
+                        }
+
+                }
+
+                function standMario(e) {
+                        if (e.keyCode == "39" && running == true) {
+
+                                img.classList.toggle('hide');
+                                gif.classList.toggle('hide');
+                                running = false;
+                                clearInterval(c);
+                        }
+                }
+
+                var step = 0;
+                var c;
+
+                function moveGrass() {
+                        step -= 10;
+                        body.style.backgroundPositionX = step + "px";
+                }
+
+                document.addEventListener("keydown", runMario);
+                document.addEventListener("keyup", standMario);
+
+
+
+
+        </script>
+</body>
+
+</html>
